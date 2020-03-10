@@ -1,0 +1,23 @@
+{
+  "extends": "airbnb-base",
+  "globals": {
+    "Event": true,
+    "Headers": true,
+    "HTMLElement": true,
+    "alert": true,
+    "browser": true,
+    "chrome": true,
+    "document": true,
+    "fetch": true,
+    "firebase": true,
+    "window": true
+  },
+  "rules": {
+    "no-console": ["error", { allow: ["warn", "error"] }],
+    "no-dupe-class-members": [0],
+    "no-new": [0],
+    "import/extensions": ['error', 'always', { ignorePackages: true } ],
+    "import/no-cycle": [0],
+    "import/prefer-default-export": [0]
+  }
+}
