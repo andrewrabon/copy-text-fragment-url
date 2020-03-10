@@ -8,6 +8,6 @@ chrome.contextMenus.create({
 
 chrome.contextMenus.onClicked.addListener((info) => {
   if (info.menuItemId === 'copy-text-fragment-url') {
-    clipboard.writeText(`${info.pageUrl}#:~:text=${encodeURIComponent(info.selectionText)}`);
+    clipboard.writeText(`${info.pageUrl.split('#')[0]}#:~:text=${encodeURIComponent(info.selectionText)}`);
   }
 });
