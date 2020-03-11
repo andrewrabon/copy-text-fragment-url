@@ -1,6 +1,6 @@
 {
   "name": "Copy Text Fragment URL",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Copy a link to any highlighted text just by right-clicking.",
   "manifest_version": 2,
   "icons": {
@@ -12,7 +12,7 @@
     "512": "icons/512.png"
   },
   "background": {
-    "scripts": ["dist/backgroundScript.min.js"],
+    "scripts": ["dist/backgroundScript.js"],
     "persistent": false
   },
   "permissions": [

@@ -1,6 +1,9 @@
 module.exports = {
   entry: './backgroundScript.js',
   output: {
-    filename: 'backgroundScript.min.js',
+    filename: 'backgroundScript.js',
+  },
+  optimization: {
+    minimize: false,
   },
 };
