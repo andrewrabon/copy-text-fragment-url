@@ -1,7 +1,7 @@
 import { clipboard } from '@bumble/clipboard';
 
 chrome.contextMenus.create({
-  title: 'Copy Text Fragment URL',
+  title: 'Copy text fragment link',
   id: 'copy-text-fragment-url',
   contexts: ['selection'],
 });
