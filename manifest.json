@@ -1,6 +1,6 @@
 {
   "name": "Copy Text Fragment URL",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Copy a link to any highlighted text just by right-clicking.",
   "manifest_version": 2,
   "icons": {
